@@ -13,32 +13,23 @@ To run this script, you'll need to have the following installed:
 
 You can install the required libraries by running the following command:
 
-```sh
+```
 pip install ccxt pandas scikit-learn
 
-Usage
+Usage:
+Clone this repository:
+git clone https://github.com/lussifa/binance-bitcoin-trend-prediction.git
 
-    Clone this repository:
-
-sh
-
-git clone https://github.com/<your_username>/binance-bitcoin-trend-prediction.git
-
-    Change directory to the cloned repository:
-
-sh
-
+Change directory to the cloned repository:
 cd binance-bitcoin-trend-prediction
 
-    Run the script:
-
-sh
-
+Run the script: 
 python binance_trend_prediction.py
-
-    The script will predict the trend of Bitcoin on Binance exchange for the next 5 minutes and output the probability of the trend being up or down. If the probability of the trend being up or down is greater than or equal to 70%, the script will record the current Bitcoin price and the highest and lowest prices over the next 5 minutes in a CSV file named result.csv.
-
+```
 License
 
-This script is licensed under the MIT License.
+This script is licensed under the MIT License.  
+The script will predict the trend of Bitcoin on Binance exchange for the next 5 minutes and output the probability of the trend being up or down. If the probability of the trend being up or down is greater than or equal to 70%, the script will record the current Bitcoin price and the highest and lowest prices over the next 5 minutes in a CSV file named result.csv.
+
+
 
