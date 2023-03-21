@@ -1,19 +1,19 @@
-Binance Bitcoin Trend Prediction Script
+# Binance Bitcoin Trend Prediction Script
 
 This is a Python script that predicts the trend of Bitcoin on Binance exchange using the Support Vector Machine (SVM) algorithm.
-Requirements
+
+## Requirements
 
 To run this script, you'll need to have the following installed:
 
-    Python 3.x
-    ccxt library
-    pandas library
-    scikit-learn library
+- Python 3.x
+- ccxt library
+- pandas library
+- scikit-learn library
 
 You can install the required libraries by running the following command:
 
-sh
-
+```sh
 pip install ccxt pandas scikit-learn
 
 Usage
@@ -41,3 +41,4 @@ python binance_trend_prediction.py
 License
 
 This script is licensed under the MIT License.
+
